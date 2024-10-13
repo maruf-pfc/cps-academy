@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 
 export default function AwardsBatch1() {
   return (
-    <ContentLayout title="Batch 2 Course Modules">
+    <ContentLayout title="Batch 3 Award List">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -35,14 +35,14 @@ export default function AwardsBatch1() {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>Batch 2</BreadcrumbPage>
+            <BreadcrumbPage>Batch 3</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
         <Button asChild className="w-1/4">
           <Link
-            href="https://docs.google.com/document/d/1Qmbx6HET5LviGADj41s0TfxjGDNxoAopyZSHKVKPC_I/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1J1ZERfLFOCS_3fCeMQmGCJqwZ2RzJux4G_UtMdd4EmA/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ export default function AwardsBatch1() {
         </Button>
         <Button asChild className="w-1/4">
           <Link
-            href="https://docs.google.com/document/d/1hvVbPYik6n9W0sW54SF6N5eAKDetL9OiQ68nVoRNlro/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1hBnUEkrNCFf8yGicm66Tul9OBMuGgsEn0GT0nXPVtig/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -60,7 +60,7 @@ export default function AwardsBatch1() {
         </Button>
         <Button asChild className="w-1/4">
           <Link
-            href="https://docs.google.com/document/d/1yeW2ZIOAA6FEgj8ZGEfZ90CYv3JFu-x_rdIsf2CrAbg/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1bwMVOLm3HBKam-48DLi2GMskQGxCT_GteV7O3rKCK3A/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

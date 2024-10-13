@@ -64,19 +64,19 @@ export function getMenuList(pathname: string): Group[] {
           icon: Component,
           submenus: [
             {
-              href: "/modules/batch-1-course-modules",
+              href: "/modules/batch-1",
               label: "Batch 1",
             },
             {
-              href: "/modules/batch-2-course-modules",
+              href: "/modules/batch-2",
               label: "Batch 2",
             },
             {
-              href: "/modules/batch-3-course-modules",
+              href: "/modules/batch-3",
               label: "Batch 3",
             },
             {
-              href: "/modules/batch-4-course-modules",
+              href: "/modules/batch-4",
               label: "Batch 4",
             },
           ],
@@ -87,19 +87,19 @@ export function getMenuList(pathname: string): Group[] {
           icon: Trophy,
           submenus: [
             {
-              href: "/awards/batch-1-awards",
+              href: "/awards/batch-1",
               label: "Batch 1",
             },
             {
-              href: "/awards/batch-2-awards",
+              href: "/awards/batch-2",
               label: "Batch 2",
             },
             {
-              href: "/awards/batch-3-awards",
+              href: "/awards/batch-3",
               label: "Batch 3",
             },
             {
-              href: "/awards/batch-4-awards",
+              href: "/awards/batch-4",
               label: "Batch 4",
             },
           ],
@@ -120,19 +120,19 @@ export function getMenuList(pathname: string): Group[] {
           icon: MonitorPlay,
           submenus: [
             {
-              href: "/batch-1-course-modules",
+              href: "/google-drive/batch-1",
               label: "Batch 1",
             },
             {
-              href: "/batch-2-course-modules",
+              href: "/google-drive/batch-2",
               label: "Batch 2",
             },
             {
-              href: "/batch-3-course-modules",
+              href: "/google-drive/batch-3",
               label: "Batch 3",
             },
             {
-              href: "/batch-4-course-modules",
+              href: "/google-drive/batch-4",
               label: "Batch 4",
             },
           ],
@@ -143,19 +143,19 @@ export function getMenuList(pathname: string): Group[] {
           icon: School,
           submenus: [
             {
-              href: "/batch-1-course-modules",
+              href: "/google-classroom/batch-1",
               label: "Batch 1",
             },
             {
-              href: "/batch-2-course-modules",
+              href: "/google-classroom/batch-2",
               label: "Batch 2",
             },
             {
-              href: "/batch-3-course-modules",
+              href: "/google-classroom/batch-3",
               label: "Batch 3",
             },
             {
-              href: "/batch-4-course-modules",
+              href: "/google-classroom/batch-4",
               label: "Batch 4",
             },
           ],

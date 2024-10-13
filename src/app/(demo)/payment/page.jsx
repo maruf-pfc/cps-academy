@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-import PlaceholderContent from "@/components/demo/placeholder-content";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
 import {
   Breadcrumb,
@@ -14,7 +13,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Payment() {
   return (
-    <ContentLayout title="Categories">
+    <ContentLayout title="Payment">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

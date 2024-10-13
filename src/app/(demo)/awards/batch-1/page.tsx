@@ -11,9 +11,9 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
 
-export default function AwardsBatch4() {
+export default function AwardsBatch1() {
   return (
-    <ContentLayout title="Batch 4 Course Modules">
+    <ContentLayout title="Batch 1 Award List">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -35,14 +35,14 @@ export default function AwardsBatch4() {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>Batch 4</BreadcrumbPage>
+            <BreadcrumbPage>Batch 1</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
         <Button asChild className="w-1/4">
           <Link
-            href="https://docs.google.com/document/d/1aaHU9PZUCPjDJKs0V5-xR6l6R8NGYOGJEj0H_ByIdKs/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1kHfR6ZuzqWklI-qYOYrxpYAA0751ySoGCzvFsuBuYtw/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ export default function AwardsBatch4() {
         </Button>
         <Button asChild className="w-1/4">
           <Link
-            href="https://docs.google.com/document/d/1lOQIAuz8luJiHOrNvAYKEO8PfOqZIG3Ug2eVCWlH9QY/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1VXaiWJIWgTcmKYz_K75QrC4oGhhLmPuo-C4NuUxx23M/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -60,7 +60,7 @@ export default function AwardsBatch4() {
         </Button>
         <Button asChild className="w-1/4">
           <Link
-            href="https://docs.google.com/document/d/14qORA9IoFvXZoJvdL21mICqT7vibJAPtuF4lzmqnV7Q/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1ZKeq8yFCHboAIWftU7FyyABxQopp68xX21ogNGh7Aw8/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

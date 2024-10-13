@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
 import {
   Breadcrumb,
@@ -9,13 +10,8 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { Label } from "@/components/ui/label";
-import { Switch } from "@/components/ui/switch";
 import {
-  Tooltip,
-  TooltipContent,
   TooltipProvider,
-  TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { useSidebar } from "@/hooks/use-sidebar";
 import { useStore } from "@/hooks/use-store";
@@ -40,7 +36,15 @@ export default function DashboardPage() {
         </BreadcrumbList>
       </Breadcrumb>
       <TooltipProvider>
-        <div className="flex gap-6 mt-6">
+        <div className="flex gap-6 mt-6 h-auto">
+          <Image
+            src="/cps-academy.png"
+            width={1080}
+            height={608}
+            alt="demo"
+            priority
+            className="rounded-xl shadow-sm my-auto w-full"
+          />
         </div>
       </TooltipProvider>
     </ContentLayout>

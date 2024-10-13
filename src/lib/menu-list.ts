@@ -49,50 +49,14 @@ export function getMenuList(pathname: string): Group[] {
       groupLabel: "Public",
       menus: [
         {
-          href: "",
+          href: "/commons",
           label: "Commons",
           icon: Puzzle,
-          submenus: [
-            {
-              href: "/batch-1-course-outline",
-              label: "Batch 1",
-            },
-            {
-              href: "/batch-2-course-outline",
-              label: "Batch 2",
-            },
-            {
-              href: "/batch-3-course-outline",
-              label: "Batch 3",
-            },
-            {
-              href: "/batch-4-course-outline",
-              label: "Batch 4",
-            },
-          ],
         },
         {
-          href: "",
+          href: "/outlines",
           label: "Outlines",
           icon: NotebookText,
-          submenus: [
-            {
-              href: "/batch-1-course-outline",
-              label: "Batch 1",
-            },
-            {
-              href: "/batch-2-course-outline",
-              label: "Batch 2",
-            },
-            {
-              href: "/batch-3-course-outline",
-              label: "Batch 3",
-            },
-            {
-              href: "/batch-4-course-outline",
-              label: "Batch 4",
-            },
-          ],
         },
         {
           href: "",
@@ -100,19 +64,19 @@ export function getMenuList(pathname: string): Group[] {
           icon: Component,
           submenus: [
             {
-              href: "/batch-1-course-modules",
+              href: "/modules/batch-1-course-modules",
               label: "Batch 1",
             },
             {
-              href: "/batch-2-course-modules",
+              href: "/modules/batch-2-course-modules",
               label: "Batch 2",
             },
             {
-              href: "/batch-3-course-modules",
+              href: "/modules/batch-3-course-modules",
               label: "Batch 3",
             },
             {
-              href: "/batch-4-course-modules",
+              href: "/modules/batch-4-course-modules",
               label: "Batch 4",
             },
           ],
@@ -123,19 +87,19 @@ export function getMenuList(pathname: string): Group[] {
           icon: Trophy,
           submenus: [
             {
-              href: "/batch-1-course-awards",
+              href: "/awards/batch-1-awards",
               label: "Batch 1",
             },
             {
-              href: "/batch-2-course-awards",
+              href: "/awards/batch-2-awards",
               label: "Batch 2",
             },
             {
-              href: "/batch-3-course-awards",
+              href: "/awards/batch-3-awards",
               label: "Batch 3",
             },
             {
-              href: "/batch-4-course-awards",
+              href: "/awards/batch-4-awards",
               label: "Batch 4",
             },
           ],

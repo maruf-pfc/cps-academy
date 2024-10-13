@@ -8,12 +8,12 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-  BreadcrumbSeparator
+  BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 
-export default function AccountPage() {
+export default function AwardsBatch1() {
   return (
-    <ContentLayout title="Account">
+    <ContentLayout title="Batch 4 Course Modules">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -29,7 +29,7 @@ export default function AccountPage() {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>Account</BreadcrumbPage>
+            <BreadcrumbPage>Awards</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>

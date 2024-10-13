@@ -95,7 +95,7 @@ export default function HomePage() {
           </div>
         </div>
       </main>
-      <footer className="py-2 md:py-0 border-t border-border/40 sticky bottom-0">
+      <footer className="py-2 md:py-0 border-t border-border/40 bottom-0">
         <div className="container flex flex-col items-center justify-center gap-4 md:h-12 md:flex-row">
           <p className="text-balance text-center text-sm leading-loose text-muted-foreground">
             All rights reserved by{" "}

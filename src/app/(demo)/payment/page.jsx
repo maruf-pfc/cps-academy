@@ -34,7 +34,7 @@ export default function Payment() {
         </BreadcrumbList>
       </Breadcrumb>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
-        <Button asChild className="w-1/4">
+        <Button asChild className="lg:w-1/4">
           <Link
             href="https://docs.google.com/spreadsheets/d/19TbY9Fab_CPbNlkuX1ErzoqUN3VrNy1S_W194HZLAHA/edit?usp=sharing"
             target="_blank"
@@ -45,8 +45,8 @@ export default function Payment() {
         </Button>
         <div className="flex flex-col gap-4">
           <h2 className="mt-8">Batch 3 Payment History</h2>
-          <hr className="w-1/4" />
-          <Button asChild className="w-1/4">
+          <hr className="lg:w-1/4" />
+          <Button asChild className="lg:w-1/4">
             <Link
               href="https://docs.google.com/spreadsheets/d/1qCL9deG7yJ6p5yH3Nr7qnE5NZE_dbzPHw-IlDYmXlPk/edit?usp=sharing"
               target="_blank"
@@ -55,53 +55,53 @@ export default function Payment() {
               Module 1
             </Link>
           </Button>
-          <Button asChild className="w-1/4">
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 2
+              Module 2 (Upcoming)
             </Link>
           </Button>
-          <Button asChild className="w-1/4">
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 3
+              Module 3 (Upcoming)
             </Link>
           </Button>
-          <Button asChild className="w-1/4">
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 4
+              Module 4 (Upcoming)
             </Link>
           </Button>
-          <Button asChild className="w-1/4">
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 5
+              Module 5 (Upcoming)
             </Link>
           </Button>
         </div>
         <div className="flex flex-col gap-4">
           <h2 className="mt-8">Batch 4 Payment History</h2>
-          <hr className="w-1/4" />
-          <Button asChild className="w-1/4">
+          <hr className="lg:w-1/4" />
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 1
+              Module 1 (Upcoming)
             </Link>
           </Button>
-          <Button asChild className="w-1/4">
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 2
+              Module 2 (Upcoming)
             </Link>
           </Button>
-          <Button asChild className="w-1/4">
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 3
+              Module 3 (Upcoming)
             </Link>
           </Button>
-          <Button asChild className="w-1/4">
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 4
+              Module 4 (Upcoming)
             </Link>
           </Button>
-          <Button asChild className="w-1/4">
+          <Button asChild className="lg:w-1/4">
             <Link href="#" target="_blank" rel="noopener noreferrer">
-              Module 5
+              Module 5 (Upcoming)
             </Link>
           </Button>
         </div>

@@ -39,10 +39,17 @@ export default function GoogleDriveBatch2() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
+      <div className="flex flex-row flex-wrap gap-4 my-8">
+        <Button asChild>
+          <Link href="https://drive.google.com/drive/folders/14Vge9Y6bsMMT7rx9eJVUZu8s9Qmm1UY2?usp=sharing">
+            Batch 2 Google Drive Link
+          </Link>
+        </Button>
+      </div>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
         <h2>Batch 2 Google Drive (Previous Batch)</h2>
-        <hr className="w-1/4" />
-        <div className="flex flex-col w-1/4 gap-4">
+        <hr className="lg:w-1/4" />
+        <div className="flex flex-col lg:w-1/4 gap-4">
           <Button asChild>
             <Link
               href="https://drive.google.com/drive/folders/1NcTGf1UFd3EjNvzm7F_grwJnj3zOwHdf?usp=sharing"
@@ -101,8 +108,8 @@ export default function GoogleDriveBatch2() {
       </div>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
         <h2>Batch 2 Google Drive (Current Batch)</h2>
-        <hr className="w-1/4" />
-        <div className="flex flex-col w-1/4 gap-4">
+        <hr className="lg:w-1/4" />
+        <div className="flex flex-col lg:w-1/4 gap-4">
           <Button asChild>
             <Link
               href="https://drive.google.com/drive/folders/1NcTGf1UFd3EjNvzm7F_grwJnj3zOwHdf?usp=sharing"

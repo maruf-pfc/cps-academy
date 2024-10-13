@@ -40,7 +40,7 @@ export default function AwardsBatch1() {
         </BreadcrumbList>
       </Breadcrumb>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
-        <Button asChild className="w-1/4">
+        <Button asChild className="lg:w-1/4">
           <Link
             href="https://docs.google.com/document/d/1Qmbx6HET5LviGADj41s0TfxjGDNxoAopyZSHKVKPC_I/edit?usp=sharing"
             target="_blank"
@@ -49,7 +49,7 @@ export default function AwardsBatch1() {
             Pupil
           </Link>
         </Button>
-        <Button asChild className="w-1/4">
+        <Button asChild className="lg:w-1/4">
           <Link
             href="https://docs.google.com/document/d/1hvVbPYik6n9W0sW54SF6N5eAKDetL9OiQ68nVoRNlro/edit?usp=sharing"
             target="_blank"
@@ -58,7 +58,7 @@ export default function AwardsBatch1() {
             Specialist
           </Link>
         </Button>
-        <Button asChild className="w-1/4">
+        <Button asChild className="lg:w-1/4">
           <Link
             href="https://docs.google.com/document/d/1yeW2ZIOAA6FEgj8ZGEfZ90CYv3JFu-x_rdIsf2CrAbg/edit?usp=sharing"
             target="_blank"

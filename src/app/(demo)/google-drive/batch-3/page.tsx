@@ -39,8 +39,20 @@ export default function GoogleDriveBatch3() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <div className="flex flex-row gap-8 w-full">
-        <div className="my-8 flex gap-4 flex-wrap flex-col w-1/2">
+      <div className="flex flex-row flex-wrap gap-4 my-8">
+        <Button asChild>
+          <Link href="https://drive.google.com/drive/folders/1rsilnv395pC9YXm05tXAOsGner8A8EKs?usp=sharing">
+            Batch 31 Google Drive Link
+          </Link>
+        </Button>
+        <Button asChild>
+          <Link href="https://drive.google.com/drive/folders/1fqL5pRqoskEdXSGx57gggjA0Iix3nkFn?usp=sharing">
+            Batch 32 Google Drive Link
+          </Link>
+        </Button>
+      </div>
+      <div className="flex flex-row flex-wrap gap-8 w-full">
+        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
           <h2>Batch-31 Google Drive (Previous Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">
@@ -84,7 +96,7 @@ export default function GoogleDriveBatch3() {
             </Button>
           </div>
         </div>
-        <div className="my-8 flex gap-4 flex-wrap flex-col w-1/2">
+        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
           <h2>Batch-31 Google Drive (Current Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">
@@ -130,8 +142,8 @@ export default function GoogleDriveBatch3() {
         </div>
       </div>
       <hr />
-      <div className="flex flex-row gap-8 w-full">
-        <div className="my-8 flex gap-4 flex-wrap flex-col w-1/2">
+      <div className="flex flex-row flex-wrap gap-8 w-full">
+        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
           <h2>Batch-32 Google Drive (Previous Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">
@@ -191,7 +203,7 @@ export default function GoogleDriveBatch3() {
             </Button>
           </div>
         </div>
-        <div className="my-8 flex gap-4 flex-wrap flex-col w-1/2">
+        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
           <h2>Batch-32 Google Drive (Current Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">

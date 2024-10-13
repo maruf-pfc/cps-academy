@@ -1,8 +1,6 @@
 import {
-  Tag,
   DollarSign,
   MonitorPlay,
-  Bookmark,
   Component,
   LayoutGrid,
   LucideIcon,
@@ -10,6 +8,9 @@ import {
   Trophy,
   Puzzle,
   School,
+  BookCopy,
+  Mails,
+  Crosshair,
 } from "lucide-react";
 
 type Submenu = {
@@ -83,6 +84,29 @@ export function getMenuList(pathname: string): Group[] {
         },
         {
           href: "",
+          label: "Contests",
+          icon: Crosshair,
+          submenus: [
+            {
+              href: "/contests/batch-1",
+              label: "Batch 1",
+            },
+            {
+              href: "/contests/batch-2",
+              label: "Batch 2",
+            },
+            {
+              href: "/contests/batch-3",
+              label: "Batch 3",
+            },
+            {
+              href: "/contests/batch-4",
+              label: "Batch 4",
+            },
+          ],
+        },
+        {
+          href: "",
           label: "Awards",
           icon: Trophy,
           submenus: [
@@ -109,6 +133,16 @@ export function getMenuList(pathname: string): Group[] {
     {
       groupLabel: "Private",
       menus: [
+        {
+          href: "/form-responses",
+          label: "Form Responses",
+          icon: BookCopy,
+        },
+        {
+          href: "/emails",
+          label: "Emails",
+          icon: Mails,
+        },
         {
           href: "/payment",
           label: "Payment",

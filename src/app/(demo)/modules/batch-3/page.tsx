@@ -42,8 +42,8 @@ export default function ModulesBatch3() {
       </Breadcrumb>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
         <h2>Batch 3 Course Modules (Previous Batch)</h2>
-        <hr className="w-1/4" />
-        <div className="flex flex-col w-1/4 gap-4">
+        <hr className="lg:w-1/4" />
+        <div className="flex flex-col lg:w-1/4 gap-4">
           <div className="flex flex-row gap-4 justify-between">
             <Button asChild>
               <Link
@@ -188,8 +188,8 @@ export default function ModulesBatch3() {
       </div>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
         <h2>Batch 3 Course Modules (Current Batch)</h2>
-        <hr className="w-1/4" />
-        <div className="flex flex-col w-1/4 gap-4">
+        <hr className="lg:w-1/4" />
+        <div className="flex flex-col lg:w-1/4 gap-4">
           <Button asChild>
             <Link
               href="https://docs.google.com/document/d/1HrV7r7DfMkbQC3D-WAGFnPPKyxfJNj5NGCxTwCKmoEw/edit?usp=sharing"

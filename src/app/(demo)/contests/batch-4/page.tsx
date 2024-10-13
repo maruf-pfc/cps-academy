@@ -11,9 +11,9 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
 
-export default function AwardsBatch1() {
+export default function ContestsBatch4() {
   return (
-    <ContentLayout title="Batch 3 Award List">
+    <ContentLayout title="Batch 4 Contests">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -30,43 +30,19 @@ export default function AwardsBatch1() {
           <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
-              <Link href="/awards">Awards</Link>
+              <Link href="/contests">Contests</Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>Batch 3</BreadcrumbPage>
+            <BreadcrumbPage>Batch 4</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
-        <Button asChild className="lg:w-1/4">
-          <Link
-            href="https://docs.google.com/document/d/1J1ZERfLFOCS_3fCeMQmGCJqwZ2RzJux4G_UtMdd4EmA/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Pupil
-          </Link>
-        </Button>
-        <Button asChild className="lg:w-1/4">
-          <Link
-            href="https://docs.google.com/document/d/1hBnUEkrNCFf8yGicm66Tul9OBMuGgsEn0GT0nXPVtig/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Specialist
-          </Link>
-        </Button>
-        <Button asChild className="lg:w-1/4">
-          <Link
-            href="https://docs.google.com/document/d/1bwMVOLm3HBKam-48DLi2GMskQGxCT_GteV7O3rKCK3A/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Expert
-          </Link>
-        </Button>
+        <h2>Batch 4 Contests</h2>
+        <hr className="w-1/4" />
+        Coming Soon
       </div>
     </ContentLayout>
   );

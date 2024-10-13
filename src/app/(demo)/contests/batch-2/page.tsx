@@ -11,9 +11,9 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Button } from "@/components/ui/button";
 
-export default function AwardsBatch1() {
+export default function ContestsBatch2() {
   return (
-    <ContentLayout title="Batch 3 Award List">
+    <ContentLayout title="Batch 2 Contests">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -30,41 +30,65 @@ export default function AwardsBatch1() {
           <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
-              <Link href="/awards">Awards</Link>
+              <Link href="/contests">Contests</Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>Batch 3</BreadcrumbPage>
+            <BreadcrumbPage>Batch 2</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
-        <Button asChild className="lg:w-1/4">
+        <h2>Batch 2 Contests</h2>
+        <hr className="lg:w-1/3" />
+        <h2>Module 1</h2>
+        <hr className="lg:w-1/3" />
+        <Button asChild className="lg:w-1/3">
           <Link
-            href="https://docs.google.com/document/d/1J1ZERfLFOCS_3fCeMQmGCJqwZ2RzJux4G_UtMdd4EmA/edit?usp=sharing"
+            href="https://vjudge.net/contest/566680"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Pupil
+            Vjudge Practice Contest
           </Link>
         </Button>
-        <Button asChild className="lg:w-1/4">
+        <Button asChild className="lg:w-1/3">
           <Link
-            href="https://docs.google.com/document/d/1hBnUEkrNCFf8yGicm66Tul9OBMuGgsEn0GT0nXPVtig/edit?usp=sharing"
+            href="https://vjudge.net/contest/594716"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Specialist
+            Vjudge Speed Contest
           </Link>
         </Button>
-        <Button asChild className="lg:w-1/4">
+        <Button asChild className="lg:w-1/3">
           <Link
-            href="https://docs.google.com/document/d/1bwMVOLm3HBKam-48DLi2GMskQGxCT_GteV7O3rKCK3A/edit?usp=sharing"
+            href="https://www.hackerrank.com/contests/cpc-batch-2-module-1-assignment-contest/challenges"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Expert
+            Hackerrank Practice Contest
+          </Link>
+        </Button>
+        <h2>Module 2</h2>
+        <hr className="lg:w-1/3" />
+        <Button asChild className="lg:w-1/3">
+          <Link
+            href="https://vjudge.net/contest/600571"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vjudge Practice Contest
+          </Link>
+        </Button>
+        <Button asChild className="lg:w-1/3">
+          <Link
+            href="https://www.hackerrank.com/cpc-batch-2-module-2-assignment-contest"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hackerrank Practice Contest
           </Link>
         </Button>
       </div>

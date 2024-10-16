@@ -41,15 +41,21 @@ export default function GoogleClassroomBatch1() {
       </Breadcrumb>
       <div className="flex flex-row flex-wrap gap-4 my-8">
         <Button asChild>
-          <Link href="https://docs.google.com/document/d/1XU2oTmZBjTAFke4ZVc2GJHAgXYKldbuJVZR35io2Dvc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://docs.google.com/document/d/1XU2oTmZBjTAFke4ZVc2GJHAgXYKldbuJVZR35io2Dvc/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Batch 41 Classroom Invitation Link
           </Link>
         </Button>
         <Button asChild>
-          <Link href="#" target="_blank" rel="noopener noreferrer">Batch 42 Classroom Invitation Link (Coming Soon)</Link>
+          <Link href="#" target="_blank" rel="noopener noreferrer">
+            Batch 42 Classroom Invitation Link (Coming Soon)
+          </Link>
         </Button>
       </div>
-      <div className="flex flex-row flex-wrap gap-4 w-full">
+      <div className="flex flex-row flex-wrap gap-4 w-full my-4">
         <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-41 Google Classroom (Previous Batch)</h2>
           <hr />
@@ -69,7 +75,7 @@ export default function GoogleClassroomBatch1() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                STL
+                STL (Video Course)
               </Link>
             </Button>
             <Button asChild>
@@ -148,7 +154,7 @@ export default function GoogleClassroomBatch1() {
         </div>
       </div>
       <hr />
-      <div className="flex flex-row flex-wrap gap-4 w-full">
+      <div className="flex flex-row flex-wrap gap-4 w-full my-4">
         <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-42 Google Classroom (Previous Batch)</h2>
           <hr />
@@ -160,7 +166,7 @@ export default function GoogleClassroomBatch1() {
             </Button>
             <Button asChild>
               <Link href="" target="_blank" rel="noopener noreferrer">
-                STL (Coming Soon)
+                STL (Video Course)
               </Link>
             </Button>
             <Button asChild>

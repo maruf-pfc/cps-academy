@@ -41,17 +41,25 @@ export default function GoogleClassroomBatch1() {
       </Breadcrumb>
       <div className="flex flex-row flex-wrap gap-4 my-8">
         <Button asChild>
-          <Link href="https://docs.google.com/document/d/1p6onLPb-cIrpFuuTz_Nt0XIzf8RgRRlg2WevwbJT6p8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://docs.google.com/document/d/1p6onLPb-cIrpFuuTz_Nt0XIzf8RgRRlg2WevwbJT6p8/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Batch 31 Classroom Invitation Link
           </Link>
         </Button>
         <Button asChild>
-          <Link href="https://docs.google.com/document/d/1rb73pX1L-sTamWKw_WVphmTOJwj4qwWVbeERL_qfv5c/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://docs.google.com/document/d/1rb73pX1L-sTamWKw_WVphmTOJwj4qwWVbeERL_qfv5c/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Batch 32 Classroom Invitation Link
           </Link>
         </Button>
       </div>
-      <div className="flex flex-row flex-wrap gap-4 w-full">
+      <div className="flex flex-row flex-wrap gap-4 w-full my-4">
         <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-31 Google Classroom (Previous Batch)</h2>
           <hr />
@@ -67,7 +75,7 @@ export default function GoogleClassroomBatch1() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                STL
+                STL (Video Course)
               </Link>
             </Button>
             <Button asChild>
@@ -150,38 +158,62 @@ export default function GoogleClassroomBatch1() {
         </div>
       </div>
       <hr />
-      <div className="flex flex-row flex-wrap gap-4 w-full">
+      <div className="flex flex-row flex-wrap gap-4 w-full my-4">
         <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-32 Google Classroom (Previous Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">
             <Button asChild>
-              <Link href="https://classroom.google.com/c/Njc5NDE0MDQ1MzI0?cjc=5g4c5ns" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://classroom.google.com/c/Njc5NDE0MDQ1MzI0?cjc=5g4c5ns"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Module 1
               </Link>
             </Button>
             <Button asChild>
-              <Link href="https://classroom.google.com/c/NjgzMjkzNzIzMjUx?cjc=rjbytaf" target="_blank" rel="noopener noreferrer">
-                STL
+              <Link
+                href="https://classroom.google.com/c/NjgzMjkzNzIzMjUx?cjc=rjbytaf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                STL (Video Course)
               </Link>
             </Button>
             <Button asChild>
-              <Link href="https://classroom.google.com/c/Njc5NDEyNjEzNzAy?cjc=2bsbapq" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://classroom.google.com/c/Njc5NDEyNjEzNzAy?cjc=2bsbapq"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Module 2
               </Link>
             </Button>
             <Button asChild>
-              <Link href="https://classroom.google.com/c/Njc5NDEzNTA1Mzkz?cjc=arnradm" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://classroom.google.com/c/Njc5NDEzNTA1Mzkz?cjc=arnradm"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Module 3
               </Link>
             </Button>
             <Button asChild>
-              <Link href="https://classroom.google.com/c/Njc5NDEyNTY2NDY4?cjc=gngve6m" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://classroom.google.com/c/Njc5NDEyNTY2NDY4?cjc=gngve6m"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Module 4
               </Link>
             </Button>
             <Button asChild>
-              <Link href="https://classroom.google.com/c/Njc5NDA5NzU2NTY5?cjc=jvocr3i" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://classroom.google.com/c/Njc5NDA5NzU2NTY5?cjc=jvocr3i"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Module 5
               </Link>
             </Button>
@@ -192,7 +224,11 @@ export default function GoogleClassroomBatch1() {
           <hr />
           <div className="flex flex-col gap-4">
             <Button asChild>
-              <Link href="https://classroom.google.com/c/NjkyNTY5MDM0NTAz?cjc=j3p2sms" target="_blank" rel="noopener noreferrer">
+              <Link
+                href="https://classroom.google.com/c/NjkyNTY5MDM0NTAz?cjc=j3p2sms"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Module 1
               </Link>
             </Button>

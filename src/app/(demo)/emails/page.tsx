@@ -34,7 +34,7 @@ export default function Emails() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <div className="my-8 flex flex-col gap-8 flex-wrap w-full">
+      <div className="my-8 flex flex-col gap-4 flex-wrap w-full">
         <div className="flex flex-row items-center">
           <Button asChild>
             <Link

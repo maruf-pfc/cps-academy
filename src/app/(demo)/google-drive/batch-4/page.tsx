@@ -59,7 +59,7 @@ export default function GoogleDriveBatch4() {
           </Link>
         </Button>
       </div>
-      <div className="flex flex-row flex-wrap gap-4 w-full">
+      <div className="flex flex-row flex-wrap gap-4 w-full my-4">
         <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-41 Google Drive (Previous Batch)</h2>
           <hr />
@@ -158,7 +158,7 @@ export default function GoogleDriveBatch4() {
         </div>
       </div>
       <hr />
-      <div className="flex flex-row flex-wrap gap-4 w-full">
+      <div className="flex flex-row flex-wrap gap-4 w-full my-4">
         <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-42 Google Drive (Previous Batch)</h2>
           <hr />

@@ -121,7 +121,7 @@ export default function GoogleClassroomBatch1() {
           </div>
         </div>
         <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
-          <h2>Batch-2 Google Classroom</h2>
+          <h2>Batch-3 Google Classroom</h2>
           <hr />
           <div className="flex flex-col gap-4">
             <Button asChild>

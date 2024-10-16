@@ -84,29 +84,6 @@ export function getMenuList(pathname: string): Group[] {
         },
         {
           href: "",
-          label: "Contests",
-          icon: Crosshair,
-          submenus: [
-            {
-              href: "/contests/batch-1",
-              label: "Batch 1",
-            },
-            {
-              href: "/contests/batch-2",
-              label: "Batch 2",
-            },
-            {
-              href: "/contests/batch-3",
-              label: "Batch 3",
-            },
-            {
-              href: "/contests/batch-4",
-              label: "Batch 4",
-            },
-          ],
-        },
-        {
-          href: "",
           label: "Awards",
           icon: Trophy,
           submenus: [
@@ -147,6 +124,29 @@ export function getMenuList(pathname: string): Group[] {
           href: "/payment",
           label: "Payment",
           icon: DollarSign,
+        },
+        {
+          href: "",
+          label: "Contests",
+          icon: Crosshair,
+          submenus: [
+            {
+              href: "/contests/batch-1",
+              label: "Batch 1",
+            },
+            {
+              href: "/contests/batch-2",
+              label: "Batch 2",
+            },
+            {
+              href: "/contests/batch-3",
+              label: "Batch 3",
+            },
+            {
+              href: "/contests/batch-4",
+              label: "Batch 4",
+            },
+          ],
         },
         {
           href: "/google-drive",

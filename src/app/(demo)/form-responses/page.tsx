@@ -10,6 +10,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function FormResponses() {
   return (
@@ -34,39 +35,46 @@ export default function FormResponses() {
         </BreadcrumbList>
       </Breadcrumb>
       <div className="my-8 flex flex-col gap-4 flex-wrap w-full">
-        <div className="">
-          <Link
-            href="https://docs.google.com/spreadsheets/d/1eBg7jNTR2xQFIq46z-sbsUD57BwS_uUVemTwBtDA53s/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex flex-row items-center"
-          >
-            <Image
-              src="/excel-logo.webp"
-              alt="Excel Logo"
-              width={100}
-              height={100}
-            />
-            Batch 1 Form Response
-          </Link>
+        <div className="flex flex-row items-center">
+          <Button asChild>
+            <Link
+              href="https://docs.google.com/spreadsheets/d/1eBg7jNTR2xQFIq46z-sbsUD57BwS_uUVemTwBtDA53s/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-row items-center"
+            >
+              <Image
+                src="/excel-logo.webp"
+                alt="Excel Logo"
+                width={50}
+                height={100}
+                className="-ml-2"
+              />
+              Batch 1 Form Response
+            </Link>
+          </Button>
         </div>
-        <div className="">
-          <Link
-            href="https://docs.google.com/spreadsheets/d/1ANv9vNLN5qC4vnSIbdO2FxKflPIOD9A0PaMfCE4BmpY/edit?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex flex-row items-center"
-          >
-            <Image
-              src="/excel-logo.webp"
-              alt="Excel Logo"
-              width={100}
-              height={100}
-            />
-            Batch 2 Form Response
-          </Link>
+        <div className="flex flex-row items-center">
+          <Button asChild>
+            <Link
+              href="https://docs.google.com/spreadsheets/d/1ANv9vNLN5qC4vnSIbdO2FxKflPIOD9A0PaMfCE4BmpY/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-row items-center"
+            >
+              <Image
+                src="/excel-logo.webp"
+                alt="Excel Logo"
+                width={50}
+                height={100}
+                className="-ml-2"
+              />
+              Batch 2 Form Response
+            </Link>
+          </Button>
         </div>
-          <div className="">
+        <div className="flex flex-row items-center">
+          <Button asChild>
             <Link
               href="https://docs.google.com/spreadsheets/d/1HFs664Tw3Tw861w7ASBmQBDm33bKfgE1CTFb3Hvgals/edit?usp=sharing"
               target="_blank"
@@ -76,13 +84,16 @@ export default function FormResponses() {
               <Image
                 src="/excel-logo.webp"
                 alt="Excel Logo"
-                width={100}
+                width={50}
                 height={100}
+                className="-ml-2"
               />
               Batch 3 Form Response
             </Link>
-          </div>
-          <div className="">
+          </Button>
+        </div>
+        <div className="flex flex-row items-center">
+          <Button asChild>
             <Link
               href="https://docs.google.com/spreadsheets/d/1dXz-S7sT90qWmjy2_GTGoOSY4ZJH5iXeHfm2qNNRpzg/edit?usp=sharing"
               target="_blank"
@@ -92,13 +103,16 @@ export default function FormResponses() {
               <Image
                 src="/excel-logo.webp"
                 alt="Excel Logo"
-                width={100}
+                width={50}
                 height={100}
+                className="-ml-2"
               />
               Batch 3 Form Response (Copy)
             </Link>
-          </div>
-          <div className="">
+          </Button>
+        </div>
+        <div className="flex flex-row items-center">
+          <Button asChild>
             <Link
               href="https://docs.google.com/spreadsheets/d/1EqH5GH0wvSO6Y0YdNQjhx41NyETOLkPw4sGWR9Rn1yI/edit?usp=sharing"
               target="_blank"
@@ -108,13 +122,16 @@ export default function FormResponses() {
               <Image
                 src="/excel-logo.webp"
                 alt="Excel Logo"
-                width={100}
+                width={50}
                 height={100}
+                className="-ml-2"
               />
               Batch 4 Form Response
             </Link>
-          </div>
-          <div className="">
+          </Button>
+        </div>
+        <div className="flex flex-row items-center">
+          <Button asChild>
             <Link
               href="https://docs.google.com/spreadsheets/d/1eIf1fHRDlgKTMVo7ET9M6rcEiTWoKTyLy8YFXR0a9Nk/edit?usp=sharing"
               target="_blank"
@@ -124,12 +141,14 @@ export default function FormResponses() {
               <Image
                 src="/excel-logo.webp"
                 alt="Excel Logo"
-                width={100}
+                width={50}
                 height={100}
+                className="-ml-2"
               />
               Batch 4 Form Response (Copy)
             </Link>
-          </div>
+          </Button>
+        </div>
       </div>
     </ContentLayout>
   );

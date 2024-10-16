@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 
 export default function GoogleClassroomBatch1() {
   return (
-    <ContentLayout title="Batch 3 Course Modules">
+    <ContentLayout title="Batch 3 Google Classroom">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -41,18 +41,18 @@ export default function GoogleClassroomBatch1() {
       </Breadcrumb>
       <div className="flex flex-row flex-wrap gap-4 my-8">
         <Button asChild>
-          <Link href="https://docs.google.com/document/d/1p6onLPb-cIrpFuuTz_Nt0XIzf8RgRRlg2WevwbJT6p8/edit?usp=sharing">
+          <Link href="https://docs.google.com/document/d/1p6onLPb-cIrpFuuTz_Nt0XIzf8RgRRlg2WevwbJT6p8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
             Batch 31 Classroom Invitation Link
           </Link>
         </Button>
         <Button asChild>
-          <Link href="https://docs.google.com/document/d/1rb73pX1L-sTamWKw_WVphmTOJwj4qwWVbeERL_qfv5c/edit?usp=sharing">
+          <Link href="https://docs.google.com/document/d/1rb73pX1L-sTamWKw_WVphmTOJwj4qwWVbeERL_qfv5c/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
             Batch 32 Classroom Invitation Link
           </Link>
         </Button>
       </div>
-      <div className="flex flex-row flex-wrap gap-8 w-full">
-        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
+      <div className="flex flex-row flex-wrap gap-4 w-full">
+        <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-31 Google Classroom (Previous Batch)</h2>
           <hr />
           <div className="flex flex-wrap flex-col gap-4">
@@ -108,7 +108,7 @@ export default function GoogleClassroomBatch1() {
             </Button>
           </div>
         </div>
-        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
+        <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-31 Google Classroom (Current Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">
@@ -150,8 +150,8 @@ export default function GoogleClassroomBatch1() {
         </div>
       </div>
       <hr />
-      <div className="flex flex-row flex-wrap gap-8 w-full">
-        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
+      <div className="flex flex-row flex-wrap gap-4 w-full">
+        <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-32 Google Classroom (Previous Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">
@@ -187,7 +187,7 @@ export default function GoogleClassroomBatch1() {
             </Button>
           </div>
         </div>
-        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
+        <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-32 Google Classroom (Current Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">

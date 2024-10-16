@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 
 export default function GoogleDriveBatch3() {
   return (
-    <ContentLayout title="Batch 3 Course Modules">
+    <ContentLayout title="Batch 3 Google Drive">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -41,62 +41,84 @@ export default function GoogleDriveBatch3() {
       </Breadcrumb>
       <div className="flex flex-row flex-wrap gap-4 my-8">
         <Button asChild>
-          <Link href="https://drive.google.com/drive/folders/1rsilnv395pC9YXm05tXAOsGner8A8EKs?usp=sharing">
+          <Link
+            href="https://drive.google.com/drive/folders/1rsilnv395pC9YXm05tXAOsGner8A8EKs?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Batch 31 Google Drive Link
           </Link>
         </Button>
         <Button asChild>
-          <Link href="https://drive.google.com/drive/folders/1fqL5pRqoskEdXSGx57gggjA0Iix3nkFn?usp=sharing">
+          <Link
+            href="https://drive.google.com/drive/folders/1fqL5pRqoskEdXSGx57gggjA0Iix3nkFn?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Batch 32 Google Drive Link
           </Link>
         </Button>
       </div>
-      <div className="flex flex-row flex-wrap gap-8 w-full">
-        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
+      <div className="flex flex-row flex-wrap gap-4 w-full">
+        <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-31 Google Drive (Previous Batch)</h2>
           <hr />
-          <div className="flex flex-col gap-4">
-            <Button asChild>
-              <Link
-                href="https://drive.google.com/drive/folders/1-ylTuTXHLe5eLH5jCUPGC-zB-FNdeWr4?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Module 1
-              </Link>
-            </Button>
-            <Button asChild>
-              <Link
-                href="https://drive.google.com/drive/folders/1E8dnoTqx_gzC4X0jBene5fdCuKEuyKDL?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                STL
-              </Link>
-            </Button>
-            <Button asChild>
-              <Link href="https://drive.google.com/drive/folders/1oMVeJbNhH_c8_GRuKG_6MzKZypYwE6fN?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Module 2
-              </Link>
-            </Button>
-            <Button asChild>
-              <Link href="https://drive.google.com/drive/folders/10XgD0k-vIfOmrLBNxUraWz72In51pE5W?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Module 3
-              </Link>
-            </Button>
-            <Button asChild>
-              <Link href="https://drive.google.com/drive/folders/1VZLvvEme4Rm4N_yD7IMZeOX4V_CurqQc?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Module 4
-              </Link>
-            </Button>
-            <Button asChild>
-              <Link href="https://drive.google.com/drive/folders/1f3uGWh3CxTu4rRZi1xPTD-H2EOhYdeL8?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Module 5
-              </Link>
-            </Button>
-          </div>
+          <Button asChild>
+            <Link
+              href="https://drive.google.com/drive/folders/1-ylTuTXHLe5eLH5jCUPGC-zB-FNdeWr4?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Module 1
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link
+              href="https://drive.google.com/drive/folders/1E8dnoTqx_gzC4X0jBene5fdCuKEuyKDL?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              STL
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link
+              href="https://drive.google.com/drive/folders/1oMVeJbNhH_c8_GRuKG_6MzKZypYwE6fN?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Module 2
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link
+              href="https://drive.google.com/drive/folders/10XgD0k-vIfOmrLBNxUraWz72In51pE5W?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Module 3
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link
+              href="https://drive.google.com/drive/folders/1VZLvvEme4Rm4N_yD7IMZeOX4V_CurqQc?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Module 4
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link
+              href="https://drive.google.com/drive/folders/1f3uGWh3CxTu4rRZi1xPTD-H2EOhYdeL8?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Module 5
+            </Link>
+          </Button>
         </div>
-        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
+        <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-31 Google Drive (Current Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">
@@ -142,8 +164,8 @@ export default function GoogleDriveBatch3() {
         </div>
       </div>
       <hr />
-      <div className="flex flex-row flex-wrap gap-8 w-full">
-        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
+      <div className="flex flex-row flex-wrap gap-4 w-full">
+        <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-32 Google Drive (Previous Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">
@@ -203,7 +225,7 @@ export default function GoogleDriveBatch3() {
             </Button>
           </div>
         </div>
-        <div className="my-8 flex gap-4 flex-wrap flex-col lg:w-1/2">
+        <div className="flex gap-4 flex-col lg:w-[45%] md:w-[45%] xs:w-full sm:w-full">
           <h2>Batch-32 Google Drive (Current Batch)</h2>
           <hr />
           <div className="flex flex-col gap-4">

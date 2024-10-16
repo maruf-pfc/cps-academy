@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 
 export default function GoogleDriveBatch2() {
   return (
-    <ContentLayout title="Batch 2 Course Modules">
+    <ContentLayout title="Batch 2 Google Drive">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -41,7 +41,7 @@ export default function GoogleDriveBatch2() {
       </Breadcrumb>
       <div className="flex flex-row flex-wrap gap-4 my-8">
         <Button asChild>
-          <Link href="https://drive.google.com/drive/folders/14Vge9Y6bsMMT7rx9eJVUZu8s9Qmm1UY2?usp=sharing">
+          <Link href="https://drive.google.com/drive/folders/14Vge9Y6bsMMT7rx9eJVUZu8s9Qmm1UY2?usp=sharing"  target="_blank" rel="noopener noreferrer">
             Batch 2 Google Drive Link
           </Link>
         </Button>

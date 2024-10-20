@@ -39,6 +39,26 @@ export default function ContestsBatch1() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
+      <div className="flex flex-row flex-wrap gap-4 my-8">
+        <Button asChild>
+          <Link
+            href="https://docs.google.com/spreadsheets/d/1KQzIhatG_9Oeb8nmdXbNH2zQuoiqGqZWc4wxwYC9lGY/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            All Contests (Final)
+          </Link>
+        </Button>
+        <Button asChild>
+          <Link
+            href="https://docs.google.com/spreadsheets/d/1e1ZD1RNd6OpTp9pMkSHMWFa_tyU0WKeai8tfSzIhOnE/edit?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Track Contests Fees
+          </Link>
+        </Button>
+      </div>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
         <h2>Batch 3 Contests</h2>
         <hr className="lg:w-1/3" />
@@ -114,6 +134,15 @@ export default function ContestsBatch1() {
             rel="noopener noreferrer"
           >
             Vjudge - Greedy
+          </Link>
+        </Button>
+        <Button asChild className="lg:w-1/3">
+          <Link
+            href="https://vjudge.net/contest/665424"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vjudge - Constructive Algorithm
           </Link>
         </Button>
       </div>

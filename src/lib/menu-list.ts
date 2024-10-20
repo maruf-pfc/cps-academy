@@ -6,11 +6,11 @@ import {
   LucideIcon,
   NotebookText,
   Trophy,
-  Puzzle,
+  Loader,
   School,
   BookCopy,
   Mails,
-  Crosshair,
+  Swords,
 } from "lucide-react";
 
 type Submenu = {
@@ -52,7 +52,7 @@ export function getMenuList(pathname: string): Group[] {
         {
           href: "/commons",
           label: "Commons",
-          icon: Puzzle,
+          icon: Loader,
         },
         {
           href: "/outlines",
@@ -128,7 +128,7 @@ export function getMenuList(pathname: string): Group[] {
         {
           href: "",
           label: "Contests",
-          icon: Crosshair,
+          icon: Swords,
           submenus: [
             {
               href: "/contests/batch-1",

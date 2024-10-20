@@ -39,6 +39,26 @@ export default function ContestsBatch4() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
+      <div className="flex flex-row flex-wrap gap-4 my-8">
+        <Button asChild>
+          <Link
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            All Contests (Upcoming)
+          </Link>
+        </Button>
+        <Button asChild>
+          <Link
+            href="/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Track Contests Fees (Upcoming)
+          </Link>
+        </Button>
+      </div>
       <div className="my-8 flex gap-4 flex-wrap flex-col">
         <h2>Batch 4 Contests</h2>
         <hr className="w-1/4" />
